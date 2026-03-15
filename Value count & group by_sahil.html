@@ -1,0 +1,3135 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ea94dca0d40e4b639ed6e516fdfc7eee</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="initial_id" class="cell code" data-execution_count="1"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T16:48:45.302010Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T16:48:42.697753Z&quot;}"
+data-collapsed="true">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code></pre></div>
+</div>
+<div id="99a94f5db294ff6e" class="cell code" data-execution_count="4"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:01:46.733322Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:01:46.631934Z&quot;}">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df<span class="op">=</span>pd.read_csv(<span class="st">&#39;bmw.csv&#39;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>year</th>
+      <th>price</th>
+      <th>transmission</th>
+      <th>mileage</th>
+      <th>fuelType</th>
+      <th>tax</th>
+      <th>mpg</th>
+      <th>engineSize</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2 Series</td>
+      <td>2018</td>
+      <td>16250</td>
+      <td>Manual</td>
+      <td>10401</td>
+      <td>Petrol</td>
+      <td>145</td>
+      <td>52.3</td>
+      <td>1.5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>5 Series</td>
+      <td>2014</td>
+      <td>11200</td>
+      <td>Automatic</td>
+      <td>67068</td>
+      <td>Diesel</td>
+      <td>125</td>
+      <td>57.6</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>6 Series</td>
+      <td>2018</td>
+      <td>27000</td>
+      <td>Automatic</td>
+      <td>14827</td>
+      <td>Petrol</td>
+      <td>145</td>
+      <td>42.8</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5 Series</td>
+      <td>2016</td>
+      <td>16000</td>
+      <td>Automatic</td>
+      <td>62794</td>
+      <td>Diesel</td>
+      <td>160</td>
+      <td>51.4</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1 Series</td>
+      <td>2017</td>
+      <td>12750</td>
+      <td>Automatic</td>
+      <td>26676</td>
+      <td>Diesel</td>
+      <td>145</td>
+      <td>72.4</td>
+      <td>1.5</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>10776</th>
+      <td>X3</td>
+      <td>2016</td>
+      <td>19000</td>
+      <td>Automatic</td>
+      <td>40818</td>
+      <td>Diesel</td>
+      <td>150</td>
+      <td>54.3</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>10777</th>
+      <td>5 Series</td>
+      <td>2016</td>
+      <td>14600</td>
+      <td>Automatic</td>
+      <td>42947</td>
+      <td>Diesel</td>
+      <td>125</td>
+      <td>60.1</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>10778</th>
+      <td>3 Series</td>
+      <td>2017</td>
+      <td>13100</td>
+      <td>Manual</td>
+      <td>25468</td>
+      <td>Petrol</td>
+      <td>200</td>
+      <td>42.8</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>10779</th>
+      <td>1 Series</td>
+      <td>2014</td>
+      <td>9930</td>
+      <td>Automatic</td>
+      <td>45000</td>
+      <td>Diesel</td>
+      <td>30</td>
+      <td>64.2</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>10780</th>
+      <td>X1</td>
+      <td>2017</td>
+      <td>15981</td>
+      <td>Automatic</td>
+      <td>59432</td>
+      <td>Diesel</td>
+      <td>125</td>
+      <td>57.6</td>
+      <td>2.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>10781 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<div id="d754d8efef4d8f2c" class="cell markdown">
+<p>VALUE COUNTS QUESTIONS</p>
+</div>
+<div id="a2ed2ff4702da921" class="cell markdown">
+<p>How many cars of each model are there?</p>
+</div>
+<div id="781f1cf77f6ba458" class="cell code" data-execution_count="28"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:15:44.474019Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:15:44.405553Z&quot;}">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df.value_counts(<span class="st">&#39;model&#39;</span>).reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3 Series</td>
+      <td>2443</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1 Series</td>
+      <td>1969</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2 Series</td>
+      <td>1228</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5 Series</td>
+      <td>1055</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4 Series</td>
+      <td>995</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="d50eb64de76487f8" class="cell markdown">
+<p>How many cars of each fuel type are there?</p>
+</div>
+<div id="a924797393e6ccdc" class="cell code" data-execution_count="27"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:15:41.085712Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:15:41.000383Z&quot;}">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.value_counts(<span class="st">&#39;fuelType&#39;</span>).reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="27">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fuelType</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Diesel</td>
+      <td>7027</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Petrol</td>
+      <td>3417</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Hybrid</td>
+      <td>298</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Other</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Electric</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="20a1043ab99909db" class="cell markdown">
+<p>How many cars of each transmission type are there?</p>
+</div>
+<div id="53f61ea5e19499f7" class="cell code" data-execution_count="26"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:15:37.390366Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:15:37.343985Z&quot;}">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;transmission&#39;</span>].value_counts().reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>transmission</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Semi-Auto</td>
+      <td>4666</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Automatic</td>
+      <td>3588</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Manual</td>
+      <td>2527</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="8731c151363827c6" class="cell markdown">
+<p>How many cars of each year are there?</p>
+</div>
+<div id="ba0ca3e81eb654ba" class="cell code" data-execution_count="25"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:15:32.631736Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:15:32.529645Z&quot;}">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;year&#39;</span>].value_counts().reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2019</td>
+      <td>3485</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2016</td>
+      <td>1882</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2017</td>
+      <td>1721</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2015</td>
+      <td>922</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2018</td>
+      <td>848</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="9c11dfee2ee4c505" class="cell markdown">
+<p>How many cars of each engine size are there?</p>
+</div>
+<div id="2b9461459ecd32ec" class="cell code" data-execution_count="24"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:15:25.191118Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:15:25.125416Z&quot;}">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;engineSize&#39;</span>].value_counts().reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>engineSize</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2.0</td>
+      <td>6575</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3.0</td>
+      <td>2458</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.5</td>
+      <td>1463</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.6</td>
+      <td>109</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4.4</td>
+      <td>79</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="fd49ac44cd5896bc" class="cell markdown">
+<p>How many cars of each model + fuel type combination are there?</p>
+</div>
+<div id="8c1a2066c986d5cd" class="cell code" data-execution_count="23"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:15:21.473581Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:15:21.410580Z&quot;}">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df[[<span class="st">&#39;model&#39;</span>,<span class="st">&#39;fuelType&#39;</span>]].value_counts().reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>fuelType</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3 Series</td>
+      <td>Diesel</td>
+      <td>1764</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1 Series</td>
+      <td>Diesel</td>
+      <td>1110</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1 Series</td>
+      <td>Petrol</td>
+      <td>859</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5 Series</td>
+      <td>Diesel</td>
+      <td>805</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4 Series</td>
+      <td>Diesel</td>
+      <td>682</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="56e304416e7364b3" class="cell code">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>How many cars of each model <span class="op">+</span> transmission combination are there?</span></code></pre></div>
+</div>
+<div id="bc4939b046c47b63" class="cell code" data-execution_count="22"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:15:11.044636Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:15:10.969775Z&quot;}">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df.value_counts([<span class="st">&#39;model&#39;</span>,<span class="st">&#39;transmission&#39;</span>]).reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>transmission</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>Manual</td>
+      <td>1103</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3 Series</td>
+      <td>Semi-Auto</td>
+      <td>1075</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3 Series</td>
+      <td>Automatic</td>
+      <td>830</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3 Series</td>
+      <td>Manual</td>
+      <td>538</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5 Series</td>
+      <td>Semi-Auto</td>
+      <td>519</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="36ae83891fc317e9" class="cell markdown">
+<p>How many cars are there for each model + fuel type combination?</p>
+</div>
+<div id="3289b0f7ffacbcec" class="cell code" data-execution_count="21"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:14:50.872950Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:14:50.771997Z&quot;}">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df[[<span class="st">&#39;model&#39;</span>,<span class="st">&#39;fuelType&#39;</span>]].value_counts().reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>fuelType</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3 Series</td>
+      <td>Diesel</td>
+      <td>1764</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1 Series</td>
+      <td>Diesel</td>
+      <td>1110</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1 Series</td>
+      <td>Petrol</td>
+      <td>859</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5 Series</td>
+      <td>Diesel</td>
+      <td>805</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4 Series</td>
+      <td>Diesel</td>
+      <td>682</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="1f6895ccfafe5949" class="cell markdown">
+<p>How many cars are there for each model + transmission
+combination?</p>
+</div>
+<div id="d6763f3e3f186804" class="cell code" data-execution_count="29"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:17:08.377700Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:17:08.327398Z&quot;}">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df[[<span class="st">&#39;model&#39;</span>,<span class="st">&#39;transmission&#39;</span>]].value_counts().reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>transmission</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>Manual</td>
+      <td>1103</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3 Series</td>
+      <td>Semi-Auto</td>
+      <td>1075</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3 Series</td>
+      <td>Automatic</td>
+      <td>830</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3 Series</td>
+      <td>Manual</td>
+      <td>538</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5 Series</td>
+      <td>Semi-Auto</td>
+      <td>519</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="1d0fda2b74c61705" class="cell markdown">
+<p>How many cars are there for each fuel type + transmission
+combination?</p>
+</div>
+<div id="a241f45c51b6e07a" class="cell code" data-execution_count="30"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:17:43.849625Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:17:43.773597Z&quot;}">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df[[<span class="st">&#39;fuelType&#39;</span>,<span class="st">&#39;transmission&#39;</span>]].value_counts().reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fuelType</th>
+      <th>transmission</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Diesel</td>
+      <td>Semi-Auto</td>
+      <td>2908</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Diesel</td>
+      <td>Automatic</td>
+      <td>2489</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Petrol</td>
+      <td>Semi-Auto</td>
+      <td>1652</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Diesel</td>
+      <td>Manual</td>
+      <td>1630</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Petrol</td>
+      <td>Manual</td>
+      <td>897</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="d4f0e9a8d7be1b2f" class="cell markdown">
+<p>How many cars are there for each model + year combination?</p>
+</div>
+<div id="8e716343fc8dea4c" class="cell code" data-execution_count="31"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:18:11.758339Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:18:11.676966Z&quot;}">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df[[<span class="st">&#39;model&#39;</span>,<span class="st">&#39;year&#39;</span>]].value_counts().reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>year</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3 Series</td>
+      <td>2019</td>
+      <td>658</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2 Series</td>
+      <td>2019</td>
+      <td>488</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1 Series</td>
+      <td>2019</td>
+      <td>454</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1 Series</td>
+      <td>2016</td>
+      <td>434</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1 Series</td>
+      <td>2017</td>
+      <td>414</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="3d071ce831532ec4" class="cell markdown">
+<p>GROUP-BY QUESTIONS</p>
+</div>
+<div id="f1af2bedbe73e909" class="cell markdown">
+<p>What is the average price for each model?</p>
+</div>
+<div id="fcc0a46952aff96a" class="cell code" data-execution_count="34"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:23:33.557819Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:23:33.511627Z&quot;}">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>bdf<span class="op">=</span>df.groupby([<span class="st">&#39;model&#39;</span>]).agg(</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    avg_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)).reset_index().head()</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>bdf</span></code></pre></div>
+<div class="output execute_result" data-execution_count="34">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>avg_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>15821.670391</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2 Series</td>
+      <td>19542.050489</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3 Series</td>
+      <td>19880.857962</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4 Series</td>
+      <td>22498.418090</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5 Series</td>
+      <td>22548.174408</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="c45601d39414a333" class="cell markdown">
+<p>What is the average mileage for each model?</p>
+</div>
+<div id="82d033da21384650" class="cell code" data-execution_count="39"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:26:31.108045Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:26:30.962402Z&quot;}">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>]).agg(</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    avg_mileage <span class="op">=</span> (<span class="st">&#39;mileage&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;avg_mileage&#39;</span>,ascending <span class="op">=</span> <span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="39">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>avg_mileage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2</th>
+      <td>3 Series</td>
+      <td>31858.368400</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5 Series</td>
+      <td>30726.992417</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>27916.201117</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4 Series</td>
+      <td>21786.536683</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2 Series</td>
+      <td>17048.013029</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="9a163599e80f7561" class="cell markdown">
+<p>What is the average mpg for each model?</p>
+</div>
+<div id="3c365c97a5660789" class="cell code" data-execution_count="46"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:29:07.632113Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:29:07.496300Z&quot;}">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>]).agg(</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    avg_mpg <span class="op">=</span> (<span class="st">&#39;mpg&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>bdf</span></code></pre></div>
+<div class="output execute_result" data-execution_count="46">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>avg_mpg</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>57.673083</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2 Series</td>
+      <td>55.866124</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3 Series</td>
+      <td>58.062996</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4 Series</td>
+      <td>55.511357</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5 Series</td>
+      <td>62.096872</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="fdf82413dafa3201" class="cell markdown">
+<p>What is the average price for each fuel type</p>
+</div>
+<div id="cfe9f5f85c532bb8" class="cell code" data-execution_count="48"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:30:09.531757Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:30:09.457387Z&quot;}">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;fuelType&#39;</span>]).agg(</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    avg_price<span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>bdf</span></code></pre></div>
+<div class="output execute_result" data-execution_count="48">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fuelType</th>
+      <th>avg_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Diesel</td>
+      <td>21779.262986</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Electric</td>
+      <td>18466.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Hybrid</td>
+      <td>27169.714765</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Other</td>
+      <td>18193.861111</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Petrol</td>
+      <td>24360.271583</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="70b38b15ae061c58" class="cell markdown">
+<p>What is the average price for each transmission type?</p>
+</div>
+<div id="a03f6e0ba40c1e78" class="cell code" data-execution_count="55"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:32:36.666180Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:32:36.549208Z&quot;}">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>bdf<span class="op">=</span> df.groupby([<span class="st">&#39;transmission&#39;</span>]).agg(</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    Avg_price_trans <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>bdf</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;Avg_price_trans&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="55">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>transmission</th>
+      <th>Avg_price_trans</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2</th>
+      <td>Semi-Auto</td>
+      <td>27359.747964</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Automatic</td>
+      <td>22419.023969</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Manual</td>
+      <td>14637.451128</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="ff313664ced94eb" class="cell markdown">
+<p>What is the average price for each year?</p>
+</div>
+<div id="a97b1348d5a0e54e" class="cell code" data-execution_count="58"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:33:56.106916Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:33:56.055275Z&quot;}">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;year&#39;</span>]).agg(</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    avg_price_year <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>bdf</span></code></pre></div>
+<div class="output execute_result" data-execution_count="58">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>avg_price_year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1996</td>
+      <td>5995.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1997</td>
+      <td>3950.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1998</td>
+      <td>3950.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1999</td>
+      <td>3285.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2000</td>
+      <td>1624.5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="425ebde1e359b514" class="cell markdown">
+<p>What is the highest price for each model?</p>
+</div>
+<div id="b7801b2a465ce621" class="cell code" data-execution_count="61"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:36:27.749111Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:36:27.682197Z&quot;}">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>]).agg(</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    highest_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;max&#39;</span>)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;highest_price&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="61">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>highest_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>2 Series</td>
+      <td>123456</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3 Series</td>
+      <td>71990</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5 Series</td>
+      <td>54845</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4 Series</td>
+      <td>48155</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>38555</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="cb0bc22458d69c65" class="cell markdown">
+<p>What is the lowest price for each model?</p>
+</div>
+<div id="5e0e5356d3e9958c" class="cell code" data-execution_count="64"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:41:10.522559Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:41:10.420641Z&quot;}">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>]).agg(</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    lowest_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;min&#39;</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;lowest_price&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="64">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>lowest_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>4 Series</td>
+      <td>8500</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2 Series</td>
+      <td>5895</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5 Series</td>
+      <td>1595</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>1500</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3 Series</td>
+      <td>1200</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="fc0d97373f51a076" class="cell markdown">
+<p>What is the average mileage for each fuel type?</p>
+</div>
+<div id="72e57e5e26e0d339" class="cell code" data-execution_count="67"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:43:03.803653Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:43:03.730491Z&quot;}">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;fuelType&#39;</span>]).agg(</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    avg_mileage_fuel <span class="op">=</span> (<span class="st">&#39;mileage&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;avg_mileage_fuel&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="67">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fuelType</th>
+      <th>avg_mileage_fuel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>Other</td>
+      <td>44760.638889</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Diesel</td>
+      <td>29852.804042</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Hybrid</td>
+      <td>23400.530201</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Electric</td>
+      <td>19925.333333</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Petrol</td>
+      <td>16524.097454</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="fa0858944e3ec6b0" class="cell markdown">
+<p>What is the average price for each engine size?</p>
+</div>
+<div id="1fc64c16a8d4bb2a" class="cell code" data-execution_count="69"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:48:26.884776Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:48:26.798164Z&quot;}">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;engineSize&#39;</span>]).agg(</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    avg_price_engineSize <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;avg_price_engineSize&#39;</span>,ascending <span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="69">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>engineSize</th>
+      <th>avg_price_engineSize</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.0</td>
+      <td>18425.404255</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.6</td>
+      <td>17920.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.0</td>
+      <td>17400.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.5</td>
+      <td>17258.086124</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.6</td>
+      <td>9353.330275</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="c773731e94b6d4ca" class="cell markdown">
+<p>What is the average price for each model + fuel type combination?</p>
+</div>
+<div id="57c35a427a5485a5" class="cell code" data-execution_count="71"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:50:25.760401Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:50:25.665027Z&quot;}">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>,<span class="st">&#39;fuelType&#39;</span>]).agg(</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    avg_Price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;avg_Price&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="71">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>fuelType</th>
+      <th>avg_Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>2 Series</td>
+      <td>Hybrid</td>
+      <td>20667.694444</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2 Series</td>
+      <td>Diesel</td>
+      <td>18555.802218</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1 Series</td>
+      <td>Petrol</td>
+      <td>17950.154831</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2 Series</td>
+      <td>Other</td>
+      <td>14666.666667</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>Diesel</td>
+      <td>14174.491892</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="8839b937b278aad" class="cell markdown">
+<p>What is the average mileage for each model + year combination?</p>
+</div>
+<div id="7652d4fd658a4fb4" class="cell code" data-execution_count="74"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:54:33.762759Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:54:33.609716Z&quot;}">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>,<span class="st">&#39;year&#39;</span>,<span class="st">&#39;fuelType&#39;</span>]).agg(</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    avg_mileage <span class="op">=</span> (<span class="st">&#39;mileage&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;avg_mileage&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="74">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>year</th>
+      <th>fuelType</th>
+      <th>avg_mileage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>1 Series</td>
+      <td>2004</td>
+      <td>Diesel</td>
+      <td>112000.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1 Series</td>
+      <td>2006</td>
+      <td>Diesel</td>
+      <td>90000.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1 Series</td>
+      <td>2006</td>
+      <td>Petrol</td>
+      <td>88000.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1 Series</td>
+      <td>2005</td>
+      <td>Diesel</td>
+      <td>63547.0</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>2001</td>
+      <td>Petrol</td>
+      <td>22633.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="84c17cf6dde6a9d0" class="cell markdown">
+<p>How many cars are listed in each model group?</p>
+</div>
+<div id="2f6abc6abadec47b" class="cell code" data-execution_count="81"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:59:18.951612Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:59:18.788813Z&quot;}">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>,]).agg(</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>    model_counts <span class="op">=</span> (<span class="st">&#39;model&#39;</span>,<span class="st">&#39;value_counts&#39;</span>)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;model_counts&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="81">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>model_counts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2</th>
+      <td>3 Series</td>
+      <td>2443</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>1 Series</td>
+      <td>1969</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2 Series</td>
+      <td>1228</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5 Series</td>
+      <td>1055</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4 Series</td>
+      <td>995</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="967f8c0ae07ce5d4" class="cell code" data-execution_count="80"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T17:58:57.218653Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T17:58:57.145898Z&quot;}">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>df.value_counts(<span class="st">&#39;model&#39;</span>).reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="80">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3 Series</td>
+      <td>2443</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1 Series</td>
+      <td>1969</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2 Series</td>
+      <td>1228</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5 Series</td>
+      <td>1055</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4 Series</td>
+      <td>995</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="9a4c4de82994fbf4" class="cell markdown">
+<p>How many cars are listed in each fuel type group?</p>
+</div>
+<div id="1c76ecdd282eb133" class="cell code" data-execution_count="82"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:04:00.432757Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:04:00.331635Z&quot;}">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>df.value_counts(<span class="st">&#39;fuelType&#39;</span>).reset_index().head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="82">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fuelType</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Diesel</td>
+      <td>7027</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Petrol</td>
+      <td>3417</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Hybrid</td>
+      <td>298</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Other</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Electric</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="914a3987cab107d9" class="cell markdown">
+<p>What is the average mpg for each fuel type?</p>
+</div>
+<div id="8b4c7d6e97e9bc70" class="cell code" data-execution_count="84"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:06:57.632689Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:06:57.532272Z&quot;}">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;fuelType&#39;</span>]).agg(</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>    avg_mpg <span class="op">=</span> (<span class="st">&#39;mpg&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>).sort_index().head()</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;avg_mpg&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="84">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>avg_mpg</th>
+    </tr>
+    <tr>
+      <th>fuelType</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Electric</th>
+      <td>470.800000</td>
+    </tr>
+    <tr>
+      <th>Other</th>
+      <td>199.363889</td>
+    </tr>
+    <tr>
+      <th>Hybrid</th>
+      <td>156.876846</td>
+    </tr>
+    <tr>
+      <th>Diesel</th>
+      <td>57.790835</td>
+    </tr>
+    <tr>
+      <th>Petrol</th>
+      <td>42.904009</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="d702f80a04bf7c77" class="cell markdown">
+<p>What is the average mileage for each transmission type?</p>
+</div>
+<div id="73b25814350dcf58" class="cell code" data-execution_count="86"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:08:41.540214Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:08:41.439642Z&quot;}">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;transmission&#39;</span>]).agg(</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    avg_mileage <span class="op">=</span> (<span class="st">&#39;mileage&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>bdf.sort_values(<span class="st">&#39;avg_mileage&#39;</span>,ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="86">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>transmission</th>
+      <th>avg_mileage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Manual</td>
+      <td>34720.485160</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Automatic</td>
+      <td>31830.679487</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Semi-Auto</td>
+      <td>15631.347621</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="209fd1fee879bf7d" class="cell markdown">
+<p>What is the average price for cars with low vs high mileage?</p>
+</div>
+<div id="dcc029639abe6bc0" class="cell code" data-execution_count="91"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:15:34.817199Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:15:34.684581Z&quot;}">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span>  df.groupby([<span class="st">&#39;mileage&#39;</span>]).agg(avg_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>),</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>max_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;max&#39;</span>),</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>min_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;min&#39;</span>)</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>).reset_index().head()</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>bdf</span></code></pre></div>
+<div class="output execute_result" data-execution_count="91">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mileage</th>
+      <th>avg_price</th>
+      <th>max_price</th>
+      <th>min_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>24490.000000</td>
+      <td>24490</td>
+      <td>24490</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3</td>
+      <td>58999.000000</td>
+      <td>58999</td>
+      <td>58999</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4</td>
+      <td>27494.500000</td>
+      <td>28990</td>
+      <td>25999</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5</td>
+      <td>34470.227273</td>
+      <td>73000</td>
+      <td>23990</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>6</td>
+      <td>31588.250000</td>
+      <td>45990</td>
+      <td>25450</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="4c7b30cff94e136e" class="cell markdown">
+<p>What is the average price for each mpg range?</p>
+</div>
+<div id="a5004bde6100fa3e" class="cell code" data-execution_count="94"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:20:30.080561Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:20:29.909482Z&quot;}">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;mpg&#39;</span>]).agg(</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    avg_mpg <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="94">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>avg_mpg</th>
+    </tr>
+    <tr>
+      <th>mpg</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>5.5</th>
+      <td>50812.666667</td>
+    </tr>
+    <tr>
+      <th>8.8</th>
+      <td>35974.125000</td>
+    </tr>
+    <tr>
+      <th>19.1</th>
+      <td>12495.000000</td>
+    </tr>
+    <tr>
+      <th>20.8</th>
+      <td>10999.000000</td>
+    </tr>
+    <tr>
+      <th>21.9</th>
+      <td>16950.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="4671adc28ebcf00f" class="cell markdown">
+<p>What is the average engine size for each model?</p>
+</div>
+<div id="a25ed409923a7221" class="cell code" data-execution_count="96"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:22:11.205659Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:22:11.101575Z&quot;}">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>]).agg(</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>    avg_engine_size <span class="op">=</span> (<span class="st">&#39;engineSize&#39;</span>,<span class="st">&quot;mean&quot;</span>)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="96">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>avg_engine_size</th>
+    </tr>
+    <tr>
+      <th>model</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1 Series</th>
+      <td>1.884865</td>
+    </tr>
+    <tr>
+      <th>2 Series</th>
+      <td>1.873779</td>
+    </tr>
+    <tr>
+      <th>3 Series</th>
+      <td>2.183095</td>
+    </tr>
+    <tr>
+      <th>4 Series</th>
+      <td>2.243216</td>
+    </tr>
+    <tr>
+      <th>5 Series</th>
+      <td>2.225687</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="6871cd317c7d437c" class="cell markdown">
+<p>What is the average price for each model and year?</p>
+</div>
+<div id="7574e724a80accd5" class="cell code" data-execution_count="100"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:24:33.072872Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:24:32.992830Z&quot;}">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>,<span class="st">&#39;year&#39;</span>]).agg(</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>    avg_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="100">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>avg_price</th>
+    </tr>
+    <tr>
+      <th>model</th>
+      <th>year</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="5" valign="top">1 Series</th>
+      <th>2001</th>
+      <td>13000.0</td>
+    </tr>
+    <tr>
+      <th>2004</th>
+      <td>2495.0</td>
+    </tr>
+    <tr>
+      <th>2005</th>
+      <td>3795.0</td>
+    </tr>
+    <tr>
+      <th>2006</th>
+      <td>2992.5</td>
+    </tr>
+    <tr>
+      <th>2007</th>
+      <td>1500.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="ef3bf058211d3f39" class="cell markdown">
+<p>What is the average price for each year and fuel type?</p>
+</div>
+<div id="8324c473bba5aff3" class="cell code" data-execution_count="103"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:27:44.182116Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:27:44.019920Z&quot;}">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;year&#39;</span>,<span class="st">&#39;fuelType&#39;</span>]).agg(</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>    avg_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="103">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>avg_price</th>
+    </tr>
+    <tr>
+      <th>year</th>
+      <th>fuelType</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1996</th>
+      <th>Petrol</th>
+      <td>5995.0</td>
+    </tr>
+    <tr>
+      <th>1997</th>
+      <th>Petrol</th>
+      <td>3950.0</td>
+    </tr>
+    <tr>
+      <th>1998</th>
+      <th>Petrol</th>
+      <td>3950.0</td>
+    </tr>
+    <tr>
+      <th>1999</th>
+      <th>Petrol</th>
+      <td>3285.0</td>
+    </tr>
+    <tr>
+      <th>2000</th>
+      <th>Petrol</th>
+      <td>1624.5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="121e97ece1058c80" class="cell markdown">
+<p>What is the average mileage for each year?</p>
+</div>
+<div id="1a9d641e89b70c63" class="cell code" data-execution_count="106"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:30:10.364988Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:30:10.226760Z&quot;}">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;year&#39;</span>]).agg(</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    avg_mileage <span class="op">=</span> (<span class="st">&#39;mileage&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="106">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>avg_mileage</th>
+    </tr>
+    <tr>
+      <th>year</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1996</th>
+      <td>36000.00</td>
+    </tr>
+    <tr>
+      <th>1997</th>
+      <td>49000.00</td>
+    </tr>
+    <tr>
+      <th>1998</th>
+      <td>56500.00</td>
+    </tr>
+    <tr>
+      <th>1999</th>
+      <td>66557.75</td>
+    </tr>
+    <tr>
+      <th>2000</th>
+      <td>96104.50</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="431aef4b5d4b9dc1" class="cell markdown">
+<p>What is the highest mileage for each model?</p>
+</div>
+<div id="a4a30ec975643d65" class="cell code" data-execution_count="110"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:32:50.332320Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:32:50.265662Z&quot;}">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>]).agg(</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>    highest_mileage <span class="op">=</span> (<span class="st">&#39;mileage&#39;</span>,<span class="st">&#39;max&#39;</span>)</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="110">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>highest_mileage</th>
+    </tr>
+    <tr>
+      <th>model</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1 Series</th>
+      <td>167000</td>
+    </tr>
+    <tr>
+      <th>2 Series</th>
+      <td>133670</td>
+    </tr>
+    <tr>
+      <th>3 Series</th>
+      <td>190000</td>
+    </tr>
+    <tr>
+      <th>4 Series</th>
+      <td>141300</td>
+    </tr>
+    <tr>
+      <th>5 Series</th>
+      <td>178987</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="b29e94160a45c15b" class="cell markdown">
+<p>What is the lowest mpg for each model?</p>
+</div>
+<div id="b6f3babf4b6edacd" class="cell code" data-execution_count="112"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:34:54.911946Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:34:54.819870Z&quot;}">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>]).agg(</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>    lowest_mpg <span class="op">=</span> (<span class="st">&#39;mpg&#39;</span>,<span class="st">&#39;min&#39;</span>)</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="112">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>lowest_mpg</th>
+    </tr>
+    <tr>
+      <th>model</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1 Series</th>
+      <td>32.5</td>
+    </tr>
+    <tr>
+      <th>2 Series</th>
+      <td>32.5</td>
+    </tr>
+    <tr>
+      <th>3 Series</th>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th>4 Series</th>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <th>5 Series</th>
+      <td>23.7</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="76d3ba4fd249dca0" class="cell markdown">
+<p>What is the average price grouped by number of cylinders (engineSize)
+categories?</p>
+</div>
+<div id="ad0685df784725e4" class="cell code" data-execution_count="115"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:45:38.740249Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:45:38.575962Z&quot;}">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;engineSize&#39;</span>]).agg(</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>    avg_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="115">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>avg_price</th>
+    </tr>
+    <tr>
+      <th>engineSize</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0.0</th>
+      <td>18425.404255</td>
+    </tr>
+    <tr>
+      <th>0.6</th>
+      <td>17920.000000</td>
+    </tr>
+    <tr>
+      <th>1.0</th>
+      <td>17400.000000</td>
+    </tr>
+    <tr>
+      <th>1.5</th>
+      <td>17258.086124</td>
+    </tr>
+    <tr>
+      <th>1.6</th>
+      <td>9353.330275</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="f89cbb492e146567" class="cell markdown">
+<p>What is the average price of Petrol, Diesel, and Hybrid cars within
+each model?</p>
+</div>
+<div id="63b739fc49cd896e" class="cell code" data-execution_count="119"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:50:13.422119Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:50:13.327591Z&quot;}">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>,<span class="st">&#39;fuelType&#39;</span>]).agg(</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>    avg_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="119">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>avg_price</th>
+    </tr>
+    <tr>
+      <th>model</th>
+      <th>fuelType</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2" valign="top">1 Series</th>
+      <th>Diesel</th>
+      <td>14174.491892</td>
+    </tr>
+    <tr>
+      <th>Petrol</th>
+      <td>17950.154831</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">2 Series</th>
+      <th>Diesel</th>
+      <td>18555.802218</td>
+    </tr>
+    <tr>
+      <th>Hybrid</th>
+      <td>20667.694444</td>
+    </tr>
+    <tr>
+      <th>Other</th>
+      <td>14666.666667</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="e68daebc75859af" class="cell markdown">
+<p>What is the average mileage for each model and transmission type?</p>
+</div>
+<div id="2cee231335d6bdcd" class="cell code" data-execution_count="121"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:51:51.173293Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:51:51.028996Z&quot;}">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;model&#39;</span>,<span class="st">&#39;transmission&#39;</span>]).agg(</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>    avg_mileage <span class="op">=</span> (<span class="st">&#39;mileage&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="121">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>avg_mileage</th>
+    </tr>
+    <tr>
+      <th>model</th>
+      <th>transmission</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3" valign="top">1 Series</th>
+      <th>Automatic</th>
+      <td>27122.573407</td>
+    </tr>
+    <tr>
+      <th>Manual</th>
+      <td>32977.600181</td>
+    </tr>
+    <tr>
+      <th>Semi-Auto</th>
+      <td>17428.629703</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">2 Series</th>
+      <th>Automatic</th>
+      <td>19940.577558</td>
+    </tr>
+    <tr>
+      <th>Manual</th>
+      <td>21124.973236</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="f64991f8319f22dd" class="cell markdown">
+<p>How many cars are in each model + engine size group?</p>
+</div>
+<div id="a475bc555d9d36ea" class="cell code" data-execution_count="130"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:56:21.021539Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:56:20.906709Z&quot;}">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.value_counts([<span class="st">&#39;model&#39;</span>,<span class="st">&#39;engineSize&#39;</span>]).reset_index().head()</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>bdf</span></code></pre></div>
+<div class="output execute_result" data-execution_count="130">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>engineSize</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3 Series</td>
+      <td>2.0</td>
+      <td>1897</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1 Series</td>
+      <td>1.5</td>
+      <td>833</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>5 Series</td>
+      <td>2.0</td>
+      <td>820</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1 Series</td>
+      <td>2.0</td>
+      <td>794</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4 Series</td>
+      <td>2.0</td>
+      <td>753</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="541a2f9564b40762" class="cell markdown">
+<p>What is the average price for cars with different mpg ranges?</p>
+</div>
+<div id="41d9715c6306aa0f" class="cell code" data-execution_count="132"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:57:51.301372Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:57:51.182269Z&quot;}">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>bdf  <span class="op">=</span> df.groupby([<span class="st">&#39;mpg&#39;</span>]).agg(</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>    avg_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="132">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>avg_price</th>
+    </tr>
+    <tr>
+      <th>mpg</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>5.5</th>
+      <td>50812.666667</td>
+    </tr>
+    <tr>
+      <th>8.8</th>
+      <td>35974.125000</td>
+    </tr>
+    <tr>
+      <th>19.1</th>
+      <td>12495.000000</td>
+    </tr>
+    <tr>
+      <th>20.8</th>
+      <td>10999.000000</td>
+    </tr>
+    <tr>
+      <th>21.9</th>
+      <td>16950.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="4af23f0311b1d46a" class="cell markdown">
+<p>What is the average price for cars grouped by (fuel type +
+transmission)?</p>
+</div>
+<div id="f00c4162730941ea" class="cell code" data-execution_count="134"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2026-02-25T18:59:51.555592Z&quot;,&quot;start_time&quot;:&quot;2026-02-25T18:59:51.456126Z&quot;}">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>bdf <span class="op">=</span> df.groupby([<span class="st">&#39;fuelType&#39;</span>,<span class="st">&#39;transmission&#39;</span>]).agg(</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>    avg_price <span class="op">=</span> (<span class="st">&#39;price&#39;</span>,<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>bdf.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="134">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>avg_price</th>
+    </tr>
+    <tr>
+      <th>fuelType</th>
+      <th>transmission</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3" valign="top">Diesel</th>
+      <th>Automatic</th>
+      <td>21216.705504</td>
+    </tr>
+    <tr>
+      <th>Manual</th>
+      <td>13722.741104</td>
+    </tr>
+    <tr>
+      <th>Semi-Auto</th>
+      <td>26776.627579</td>
+    </tr>
+    <tr>
+      <th>Electric</th>
+      <th>Automatic</th>
+      <td>18466.000000</td>
+    </tr>
+    <tr>
+      <th>Hybrid</th>
+      <th>Automatic</th>
+      <td>25543.463542</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v67327c56f0bb4ef8b305cae61679db8f1769101564043" integrity="sha512-rdcWY47ByXd76cbCFzznIcEaCN71jqkWBBqlwhF1SY7KubdLKZiEGeP7AyieKZlGP9hbY/MhGrwXzJC/HulNyg==" data-cf-beacon='{"version":"2024.11.0","token":"0357a45f23a943f08700f7f9af191ee6","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
